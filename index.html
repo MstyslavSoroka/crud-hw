@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>фільми</title>
+  </head>
+  <body>
+    <h1>Список фільмів</h1>
+    <button onclick="loadMovies()">Отримати фільми</button>
+
+    <ul id="list"></ul>
+
+    <h2>Додати фільм</h2>
+    <form id="addMovieForm">
+      <input type="text" id="title" placeholder="Назва" required />
+      <input type="text" id="genre" placeholder="Жанр" required />
+      <input type="text" id="director" placeholder="Режисер" required />
+      <input type="number" id="year" placeholder="Рік" required />
+      <button type="submit">Додати</button>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
